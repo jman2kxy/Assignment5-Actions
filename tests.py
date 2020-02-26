@@ -13,7 +13,7 @@ class TestCase(unittest.TestCase):
 
     def test_area(self):
         radius = 5
-        self.assertEqual(79, task.area(radius))
+        self.assertEqual(78, round(task.cir_area(radius)))
 
 
 if __name__ == '__main__':
