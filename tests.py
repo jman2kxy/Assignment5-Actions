@@ -11,6 +11,10 @@ class TestCase(unittest.TestCase):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
 
+    def test_area(self):
+        radius = 5
+        self.assertEqual(79, task.area(radius))
+
 
 if __name__ == '__main__':
     unittest.main()
