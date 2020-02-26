@@ -21,6 +21,7 @@ class TestCase(unittest.TestCase):
         first, last = task.first_y_last(brack)
         self.assertEqual(first, 2)
         self.assertEqual(18, last)
+        
 
 if __name__ == '__main__':
     unittest.main()
